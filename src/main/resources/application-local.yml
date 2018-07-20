@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: ivory
+      host: localhost
+      port: 27017
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
